@@ -4,7 +4,7 @@ import io
 
 st.set_page_config(page_title="Calculadora de Indicadores", layout="centered")
 
-st.title("📊 Calculadora de Indicadores Automáticos")
+st.title("Calculadora de Indicadores Automáticos")
 
 # Subir archivo
 archivo = st.file_uploader("Sube tu archivo Excel o CSV", type=["csv", "xlsx"])
